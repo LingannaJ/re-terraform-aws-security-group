@@ -41,7 +41,7 @@ variable "outboud_rules" {
   ]
 }
 
-variable "ingress_rules" {
+variable "inbound_rules" {
     type = list
   default = []
 }
